@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/create_effects_filters"
+          android:title="@string/create_effects_filters"
+          android:icon="@drawable/ic_photo_filter_white_24dp" />
+    <item android:id="@+id/create_effects_adjust"
+          android:title="@string/create_effects_adjust"
+          android:icon="@drawable/ic_tune_white_24dp" />
+    <item android:id="@+id/create_effects_crop"
+          android:title="@string/create_effects_crop"
+          android:icon="@drawable/ic_crop_free_white_24dp" />
+    <item android:id="@+id/create_effects_resize"
+          android:title="@string/create_effects_resize"
+          android:icon="@drawable/ic_transform_white_24dp" />
+    <item android:id="@+id/create_effects_overlay"
+          android:title="@string/create_effects_overlay"
+          android:icon="@drawable/ic_overlay_white_24dp" />
+
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:clickable="true"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tab_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:textColor="@color/secondary_text_color"
+        android:includeFontPadding="false"
+        android:textAlignment="gravity"
+        android:textSize="13dp"
+        />
+
+    <View
+        android:id="@+id/tab_indicator"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="0dp"
+        android:background="@color/primary_color"/>
+
+</LinearLayout>

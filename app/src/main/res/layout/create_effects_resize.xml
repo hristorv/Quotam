@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/resize_text_x"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="x"
+        android:textColor="@color/primary_text_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/resize_text_width"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/resize_text_x"
+        android:gravity="right"
+        android:textColor="@color/primary_text_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/resize_text_height"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/resize_text_x"
+        android:gravity="left"
+        android:textColor="@color/primary_text_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/resize_text_default"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:textSize="13sp"
+        android:layout_below="@id/resize_text_x"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:text="@string/resize_default"
+        android:textColor="@color/secondary_text_color"
+        android:textStyle="normal"
+        />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/resize_refresh"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_refresh_white_18dp"
+        />
+
+    <com.quotam.custom.CustomSeekBar
+        android:id="@+id/resize_slider"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/resize_refresh"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toLeftOf="@+id/resize_refresh"
+        android:layout_toStartOf="@+id/resize_refresh"
+        android:clickable="true"
+        android:maxHeight="40dp"
+        android:minHeight="40dp"
+        android:progressDrawable="@color/transparent"
+        android:splitTrack="false"
+        android:thumb="@drawable/custom_seekbar_thumb"/>
+
+</RelativeLayout>

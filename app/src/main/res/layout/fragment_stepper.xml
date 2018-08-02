@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/stepper_base"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+    <View
+        android:id="@+id/status_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/primary_color"/>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/primary_color"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <com.quotam.custom.CustomStepper
+            android:id="@+id/custom_stepper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/bottom_layout_divider"
+            android:gravity="center"
+            android:orientation="horizontal"
+            />
+
+        <FrameLayout
+            android:id="@+id/bottom_layout_divider"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@id/bottom_layout_next"
+            android:alpha="0.4"
+            android:background="@color/white"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bottom_layout_next"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/coming_soon"
+            android:gravity="center"
+            android:text="@string/next"
+            android:textAllCaps="true"
+            android:textColor="@color/primary_text_color"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_layout"
+        android:layout_below="@id/status_bar_background">
+
+        <com.quotam.custom.DisableableViewPager
+            android:id="@+id/stepper_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            />
+
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

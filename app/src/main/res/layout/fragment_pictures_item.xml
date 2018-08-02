@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/pic_height">
+
+    <ImageView
+        android:id="@+id/picture_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pic_height"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/descr_image"
+        android:scaleType="centerCrop"/>
+
+    <FrameLayout
+        android:id="@+id/picture_likes_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/likes_background">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/picture_likes_count"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_thumb_up_primary_18dp"
+            android:drawablePadding="10dip"
+            android:drawableStart="@drawable/ic_thumb_up_primary_18dp"
+            android:gravity="center"
+            android:indeterminate="false"
+            android:max="100"
+            android:textColor="@color/likes_text"/>
+    </FrameLayout>
+
+</FrameLayout>

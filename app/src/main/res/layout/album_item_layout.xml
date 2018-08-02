@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@color/primary_color">
+
+    <ImageView
+        android:id="@+id/album_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_collapseMode="parallax"
+        app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"/>
+    />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/album_item_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_above="@+id/album_item_info"
+        android:layout_marginLeft="30dp"
+        android:alpha="0.8"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Ivan Georgiev"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:id="@+id/album_item_info"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="left|center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/album_item_likes_icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_thumb_up_white_18dp"
+            android:layout_marginRight="5dp"
+            android:alpha="0.8"
+            android:gravity="center"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/album_item_likes_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="123"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <FrameLayout
+            android:id="@+id/album_item_line"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="7dp"
+            android:alpha="0.4"
+            android:background="@color/white"
+            />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/album_item_pictures_icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_image_white_18dp"
+            android:layout_marginRight="5dp"
+            android:alpha="0.8"
+            android:gravity="center"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/album_item_pictures_count"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="15"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</RelativeLayout>

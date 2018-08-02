@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bottom_bar_comments"
+          android:title="@string/comments"
+          android:icon="@drawable/ic_mode_comment_white_24dp" />
+    <item android:id="@+id/bottom_bar_share"
+          android:title="@string/action_share"
+          android:icon="@drawable/ic_share_white_24dp" />
+    <item android:id="@+id/bottom_bar_add"
+          android:title="@string/action_add_album"
+          android:icon="@drawable/ic_add_white_24dp" />
+    <item android:id="@+id/bottom_bar_report"
+          android:title="@string/action_report"
+          android:icon="@drawable/ic_flag_white_24dp" />
+</menu>

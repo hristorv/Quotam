@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="dock_enter_exit_duration">250</integer>
+    <integer name="tag_text_max_length">15</integer>
+</resources>

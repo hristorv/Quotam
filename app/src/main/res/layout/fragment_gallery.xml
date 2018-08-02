@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+    <com.quotam.custom.CustomViewPager
+        android:id="@+id/view_pager"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:visibility="gone"/>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/bottom_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/hiding_layout"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="bottom"
+            android:background="@color/primary_color"
+            android:clickable="true">
+
+            <com.quotam.custom.CustomBottomBar
+                android:id="@+id/bottom_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"/>
+
+            <RelativeLayout
+                android:id="@+id/info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_above="@id/bottom_bar"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/gallery_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:gravity="start|center_vertical"
+                    android:includeFontPadding="false"
+                    android:text="Inspirational"
+                    android:textColor="@color/primary_text_color"
+                    android:textSize="20sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="start|center_vertical">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/gallery_artist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:alpha="0.9"
+                        android:gravity="center_vertical"
+                        android:text="Ivan Georgiev"
+                        android:textColor="@color/primary_text_color"
+                        android:textSize="16sp"/>
+
+                    <FrameLayout
+                        android:id="@+id/gallery_divider"
+                        android:layout_width="1dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="8dp"
+                        android:background="#66ffffff"
+                        />
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/gallery_likes_icon"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_marginRight="5dp"
+                        android:alpha="0.8"
+                        android:gravity="center"
+                        android:src="@drawable/ic_thumb_up_white_18dp"
+                        />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/gallery_likes_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentBottom="true"
+                        android:alpha="0.9"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="125"
+                        android:textColor="@color/primary_text_color"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/thumbs_up_white"
+            android:visibility="visible"
+            app:layout_anchor="@id/hiding_layout"
+            app:layout_anchorGravity="top|right|end"
+            app:pressedTranslationZ="0dp"
+            />
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="card_height">240dp</dimen>
+    <dimen name="album_height">280dp</dimen>
+    <dimen name="pic_height">180dp</dimen>
+    <dimen name="header_footer_height">90dp</dimen>
+
+</resources>

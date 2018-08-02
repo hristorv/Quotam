@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/format_left"
+          android:title="@string/left"
+          android:icon="@drawable/ic_format_align_left_white_24dp" />
+    <item android:id="@+id/format_center"
+          android:title="@string/center"
+          android:icon="@drawable/ic_format_align_center_white_24dp" />
+    <item android:id="@+id/format_right"
+          android:title="@string/right"
+          android:icon="@drawable/ic_format_align_right_white_24dp" />
+</menu>

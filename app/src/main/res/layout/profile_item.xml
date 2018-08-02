@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="245dp"
+    android:background="@color/primary_color"
+    >
+
+    <ImageView
+        android:id="@+id/profile_image_background"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/drawer_image20"
+        />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/profile_linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/primary_color"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/profile_linearLayout"
+        android:layout_marginRight="40dp"
+        android:layout_toEndOf="@+id/profile_image_avatar"
+        android:layout_toRightOf="@+id/profile_image_avatar"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:layout_marginLeft="10dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="Ivan Georgiev"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image_avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/cat_funny"
+        app:civ_border_color="@color/primary_color"
+        app:civ_border_width="2dp"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/profile_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/profile_image_avatar"
+        android:layout_toRightOf="@+id/profile_image_avatar"
+        android:gravity="center"
+        >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/profile_icon_likes"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginRight="5dp"
+            android:alpha="0.8"
+            android:gravity="center"
+            android:src="@drawable/ic_thumb_up_white_18dp"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/profile_count_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="125"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            />
+
+        <FrameLayout
+            android:id="@+id/profile_line_first"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="8dp"
+            android:alpha="0.4"
+            android:background="@color/white"
+            />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/profile_icon_pictures"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginRight="5dp"
+            android:alpha="0.8"
+            android:gravity="center"
+            android:src="@drawable/ic_image_white_18dp"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/profile_count_pictures"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="15"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold"/>
+
+        <FrameLayout
+            android:id="@+id/profile_line_second"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="8dp"
+            android:alpha="0.4"
+            android:background="@color/white"
+            />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/profile_icon_albums"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginRight="5dp"
+            android:alpha="0.8"
+            android:gravity="center"
+            android:src="@drawable/ic_photo_album_white_18dp"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/profile_count_albums"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

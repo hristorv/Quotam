@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/style_bold"
+          android:title="@string/bold"
+          android:icon="@drawable/ic_format_bold_white_24dp" />
+    <item android:id="@+id/style_italic"
+          android:title="@string/italic"
+          android:icon="@drawable/ic_format_italic_white_24dp" />
+    <item android:id="@+id/style_underlined"
+          android:title="@string/underlined"
+          android:icon="@drawable/ic_format_underlined_white_24dp" />
+    <item android:id="@+id/style_strikethrough"
+          android:title="@string/strikethrough"
+          android:icon="@drawable/ic_format_strikethrough_white_24dp" />
+    <item android:id="@+id/style_capital"
+          android:title="@string/capital"
+          android:icon="@drawable/ic_capital_white_24dp" />
+</menu>

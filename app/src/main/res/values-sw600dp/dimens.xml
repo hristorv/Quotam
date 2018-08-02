@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="card_height">200dp</dimen>
+    <dimen name="album_height">240dp</dimen>
+    <dimen name="pic_height">130dp</dimen>
+    <dimen name="header_footer_height">60dp</dimen>
+
+</resources>

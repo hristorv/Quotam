@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name" tools:ignore="MissingTranslation">Quotam</string>
+    <string name="facebook_app_id">2043989242496484</string>
+    <string name="fb_login_protocol_scheme">fb2043989242496484</string>
+
+    <!-- Content Description -->
+
+    <string name="descr_image">Image</string>
+    <string name="splash">Splash screen</string>
+    <string name="logo">Logo</string>
+    <string name="image_hq">High quality image</string>
+    <string name="gallery_activity">Gallery</string>
+    <string name="get_category_url">http://www.quotesandsayings.tk/scgi-bin/get_categories.py</string>
+    <string name="get_single_category_url">http://www.quotesandsayings.tk/scgi-bin/get_single_category.py</string>
+    <string name="likes_url">http://www.quotesandsayings.tk/scgi-bin/like.py</string>
+    <string name="widget_image">Widget image</string>
+    <string name="title_activity_widget_config">Widget Settings</string>
+    <string name="action_set_wallpaper">Set as wallpaper</string>
+    <string name="action_download">Download</string>
+    <string name="action_like">Like</string>
+    <string name="action_share">Share</string>
+    <string name="share_with">Share with</string>
+    <string name="notification_text">Your new quote!</string>
+    <string name="notification_ticker">Your new quote!</string>
+    <string name="notification_sub_text">Tap to open in fullscreen.</string>
+    <string name="cancel">Cancel</string>
+    <string name="likes">Likes</string>
+    <string name="search_hint">Search ...</string>
+    <string name="action_add_album">Add to album</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_delete">Delete</string>
+    <string name="deleted">Deleted</string>
+    <string name="action_report">Report</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_disable">Disable</string>
+    <string name="action_enable">Enable</string>
+    <string name="disabled">Disabled</string>
+    <string name="enabled">Enabled</string>
+    <string name="image_saved">Image saved in Download.</string>
+    <string name="liked">Liked</string>
+    <string name="unliked">Unliked</string>
+    <string name="url_top">http://www.quotesandsayings.tk/scgi-bin/get_top.py</string>
+    <string name="connection_error">No Internet Connection</string>
+    <string name="notification_conn_error_title">Failed downloading quote</string>
+    <string name="notification_conn_error_subtitle">Check your internet connection and tap to retry.</string>
+    <string name="widget_error">No internet connection. Tap to retry.</string>
+    <string name="drawer_create">Create</string>
+    <string name="drawer_schedulers">Schedulers</string>
+    <string name="drawer_profile">Profile</string>
+    <string name="drawer_feedback">Feedback</string>
+    <string name="drawer_logout">Log out</string>
+    <string name="drawer_categories">Categories</string>
+    <string name="drawer_timeline">Timeline</string>
+    <string name="drawer_albums">Albums</string>
+    <string name="drawer_artists">Artists</string>
+    <string name="help_next">NEXT</string>
+    <string name="help_previous">PREVIOUS</string>
+    <string name="help_done">DONE</string>
+
+    <string name="help_title_categories">Categories</string>
+    <string name="help_title_create">Create</string>
+    <string name="help_title_albums">Albums</string>
+    <string name="help_title_timeline">Timeline</string>
+    <string name="help_title_search">Search</string>
+    <string name="help_title_schedulers">Schedulers:</string>
+
+    <string name="help_text_categories">Explore different categories, containing thousands of pictures</string>
+    <string name="help_text_create">Design your own quote pictures and share your artwork with others</string>
+    <string name="help_text_albums">Create and share your collection of quotes</string>
+    <string name="help_text_timeline">Browse new quotes from your favorite category, album or artist</string>
+    <string name="help_text_search">Find quotes and albums by their name,author or keyword</string>
+    <string name="help_text_schedulers">Set up an alarm at a specific time or interval to receive a new quote as a:\n\n- Wallpaper\n- Notification\n- Widget</string>
+    <string name="help_schedulers_small">Set up an alarm at a specific time or interval to receive a new quote.</string>
+
+    <string name="action_expand">Expand</string>
+    <string name="feedback_description">Description</string>
+    <string name="feedback_bug">Bug</string>
+    <string name="feedback_suggestion">Suggestion</string>
+    <string name="feedback_error">Enter a description</string>
+    <string name="send">Send</string>
+    <string name="add_comment">Add a comment</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="password_repeat">Repeat password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="signup">Sign up</string>
+    <string name="continue_to">Continue</string>
+    <string name="email">Email</string>
+    <string name="facebook">Continue with Facebook</string>
+    <string name="google">Continue with Google</string>
+    <string name="add_photo_cover">Cover photo</string>
+    <string name="show_more">Show more</string>
+    <string name="authenticating">Authenticating ...</string>
+    <string name="register_successful">Registration successful</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="password_reset_text">You will receive an email with a link to reset your password</string>
+
+    <string name="collection">Collection</string>
+    <string name="favorites">Favorites</string>
+    <string name="comments">Comments</string>
+    <string name="latest">Latest</string>
+    <string name="trending">Trending</string>
+    <string name="top">Top</string>
+
+    <string name="sign_in_failed">Sign in failed</string>
+    <string name="email_exists">A user with this email address already exists</string>
+    <string name="added_to_album">Added to</string>
+    <string name="scheduler_delete_message">Are you sure you want to permanently delete this scheduler ?</string>
+    <string name="scheduler_delete_title">Delete scheduler</string>
+    <string name="type">Type</string>
+    <string name="time">Time</string>
+    <string name="items">Items</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="notification">Notification</string>
+    <string name="widget">Widget</string>
+    <string name="schedulers_type_error">Select type for the scheduler</string>
+    <string name="interval">Interval</string>
+    <string name="alarm">Alarm</string>
+    <string name="schedulers_items_error">Select atleast one item</string>
+    <string name="explore">Explore</string>
+    <string name="browse">Browse</string>
+    <string name="choose_type">Choose a type</string>
+    <string name="text">Text</string>
+    <string name="picture">Picture</string>
+    <string name="effects">Effects</string>
+    <string name="overview">Overview</string>
+    <string name="private_">Private</string>
+    <string name="public_">Public</string>
+
+    <string-array name="scheduler_intervals">
+        <item>1 hour</item>
+        <item>2 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>2 days</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="exit_confirm">Are you sure you want to exit ?</string>
+    <string name="exit">Exit</string>
+    <string name="done">Done</string>
+    <string name="crop">Crop</string>
+    <string name="resize">Resize</string>
+    <string name="options">Options</string>
+    <string name="enter_tag">Enter tag</string>
+    <string name="tag_exists_error">This tag already exists</string>
+    <string name="tag_min_chars">Tags must be atleast 3 characters long</string>
+    <string name="tag_max_chars">Tags must be less than 12 characters long</string>
+    <string name="tag_max_items_error">You can\'t add more than 8 tags</string>
+    <string name="create_effects_filters">Filters</string>
+    <string name="create_effects_font">Font</string>
+    <string name="create_effects_color">Color</string>
+    <string name="create_effects_size">Size</string>
+    <string name="create_choose_picture_error">Select a picture.</string>
+    <string name="create_choose_text_error">Choose a quote or add custom text.</string>
+    <string name="original">Original</string>
+    <string name="create_effects_adjust">Adjust</string>
+    <string name="blur">Blur</string>
+    <string name="brightness">Brightness</string>
+    <string name="contrast">Contrast</string>
+    <string name="exposure">Exposure</string>
+    <string name="haze">Haze</string>
+    <string name="invert">Invert</string>
+    <string name="mono">Mono</string>
+    <string name="pixelation">Pixelation</string>
+    <string name="saturation">Saturation</string>
+    <string name="tone">Tone</string>
+    <string name="vignette">Vignette</string>
+    <string name="create_effects_crop">Crop</string>
+    <string name="create_effects_resize">Resize</string>
+    <string name="create_effects_frames">Frames</string>
+    <string name="all">All</string>
+    <string name="gamma">Gamma</string>
+    <string name="hue">Hue</string>
+    <string name="sharpness">Sharpness</string>
+    <string name="sobel">Sobel</string>
+    <string name="emboss">Emboss</string>
+    <string name="posterize">Posterize</string>
+    <string name="shadow">Shadow</string>
+    <string name="color_balance">Balance</string>
+    <string name="bilateral">Bilateral</string>
+    <string name="resize_default">(Default)</string>
+    <string name="create_effects_overlay">Overlay</string>
+    <string name="eyedropper_message">Touch the picture to extract color</string>
+    <string name="left">Left</string>
+    <string name="center">Center</string>
+    <string name="right">Right</string>
+    <string name="create_effects_format">Format</string>
+    <string name="bold">Bold</string>
+    <string name="italic">Italic</string>
+    <string name="underlined">Underline</string>
+    <string name="strikethrough">Strike</string>
+    <string name="create_effects_style">Style</string>
+    <string name="capital">Capital</string>
+    <string name="create_effects_line_spacing">Line</string>
+    <string name="create_effects_word_spacing">Word</string>
+    <string name="create_effects_letter_spacing">Letter</string>
+    <string name="create_effects_background_color">Background</string>
+    <string name="create_effects_text_shadow">Shadow</string>
+    <string name="create_effects_text_blur">Blur</string>
+    <string name="create_effects_rotate">Rotate</string>
+    <string name="create_effects_emboss">Emboss</string>
+
+
+</resources>

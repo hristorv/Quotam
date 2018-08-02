@@ -1,0 +1,52 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="white_overlay">#66ffffff</color>
+    <color name="button_selector">#33000000</color>
+    <color name="likes_background">#99000000</color>
+    <color name="likes_text">#fff</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="grid_background">#E1F5FE</color>
+    <color name="help_text_color">#CCffffff</color>
+    <color name="help_indicator_default">#1A000000</color>
+    <color name="help_indicator_selected">#99ffffff</color>
+    <color name="bottom_sheet_text_grey">#8C000000</color>
+    <color name="textview_border">#000000</color>
+
+    <!-- darker variant for the status bar and contextual app bars -->
+    <color name="dark_primary_color">#F57C00</color>
+    <color name="light_primary_color">#FFB74D</color>
+
+    <!-- your app branding color for the app bar -->
+    <color name="primary_color">#FF9800</color>
+    <color name="disabled_primary_color">#B3FF9800</color>
+
+    <color name="drawer_divider">#00FFFFFF</color>
+
+    <!-- theme UI controls like checkboxes and text fields -->
+    <color name="accent_color">#DD2C00</color>
+    <color name="primary_text_color_dark">#73000000</color>
+    <color name="primary_text_color">#FFFFFF</color>
+    <color name="secondary_text_color">#CCFFFFFF</color>
+    <color name="disabled_text_color">#B3FFFFFF</color>
+    <color name="search_background">#4DFFFFFF</color>
+    <color name="search_text">#CCFFFFFF</color>
+    <color name="button_focus">#FFE0B2</color>
+    <color name="scheduler_item_background">#FFCC80</color>
+
+    <color name="facebook_button">#3b5998</color>
+    <color name="google_button">#dd4b39</color>
+
+    <!-- Help fragment background colors -->
+    <color name="help_categories">#f44336</color>
+    <color name="help_create">#FF9800</color>
+    <color name="help_albums">#FFC107</color>
+    <color name="help_timeline">#4CAF50</color>
+    <color name="help_search">#2196F3</color>
+    <color name="help_schedulers">#9C27B0</color>
+
+
+</resources>
+

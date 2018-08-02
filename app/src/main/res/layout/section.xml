@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical">
+
+    <include layout="@layout/section_header"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/section_items_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:horizontalSpacing="0dip"
+        android:padding="0dip"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="0dip">
+    </android.support.v7.widget.RecyclerView>
+
+    <include layout="@layout/section_footer"/>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_color"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        >
+
+        <include
+            layout="@layout/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/search_view_height"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"/>
+
+        <com.quotam.custom.CustomEditText
+            android:id="@+id/stepper_text_primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|bottom"
+            android:hint="Add primary text"
+            android:maxHeight="120dp"
+            android:minHeight="60dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/primary_text_color"
+            android:textColorHint="@color/secondary_text_color"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+        <com.quotam.custom.CustomEditText
+            android:id="@+id/stepper_text_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="start|bottom"
+            android:hint="Add secondary text"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:singleLine="true"
+            android:textColor="@color/primary_text_color"
+            android:textColorHint="@color/secondary_text_color"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/stepper_text_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        />
+
+
+</LinearLayout>

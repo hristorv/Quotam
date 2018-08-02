@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/create_effects_font"
+          android:title="@string/create_effects_font"
+          android:icon="@drawable/ic_font_download_white_24dp" />
+    <item android:id="@+id/create_effects_color"
+          android:title="@string/create_effects_color"
+          android:icon="@drawable/ic_format_color_text_white_24dp" />
+    <item android:id="@+id/create_effects_format"
+          android:title="@string/create_effects_format"
+          android:icon="@drawable/ic_format_align_left_white_24dp" />
+    <item android:id="@+id/create_effects_style"
+          android:title="@string/create_effects_style"
+          android:icon="@drawable/ic_capital_white_24dp" />
+    <item android:id="@+id/create_effects_line_spacing"
+          android:title="@string/create_effects_line_spacing"
+          android:icon="@drawable/ic_format_line_spacing_white_24dp" />
+    <item android:id="@+id/create_effects_background_color"
+          android:title="@string/create_effects_background_color"
+          android:icon="@drawable/ic_format_color_fill_white_24dp" />
+    <item android:id="@+id/create_effects_text_shadow"
+          android:title="@string/create_effects_text_shadow"
+          android:icon="@drawable/ic_text_shadow_white_24dp" />
+    <item android:id="@+id/create_effects_text_blur"
+          android:title="@string/create_effects_text_blur"
+          android:icon="@drawable/ic_blur_on_white_24dp" />
+    <item android:id="@+id/create_effects_rotate"
+          android:title="@string/create_effects_rotate"
+          android:icon="@drawable/ic_rotate_right_white_24dp" />
+
+
+</menu>

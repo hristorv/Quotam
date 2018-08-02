@@ -1,0 +1,9 @@
+<!-- Animation for when a dock window at the bottom of the screen is entering. -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:interpolator="@android:interpolator/decelerate_cubic"
+     android:startOffset="@integer/dock_enter_exit_duration">
+    <translate
+        android:duration="@integer/dock_enter_exit_duration"
+        android:fromYDelta="100%"
+        android:toYDelta="0"/>
+</set>

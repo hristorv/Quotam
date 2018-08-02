@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/transparent"/>
+        </shape>
+    </item>
+    <item>
+        <selector>
+            <item
+                android:state_focused="true">
+                <layer-list>
+                    <item>
+                        <shape android:shape="rectangle">
+                            <stroke
+                                android:width="2dp"
+                                android:color="@color/primary_color"/>
+                        </shape>
+                    </item>
+                </layer-list>
+            </item>
+
+        </selector>
+    </item>
+</layer-list>

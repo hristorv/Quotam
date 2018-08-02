@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/adjust_blur"
+          android:title="@string/blur"
+          android:icon="@drawable/ic_blur_on_white_24dp" />
+    <item android:id="@+id/adjust_brightness"
+          android:title="@string/brightness"
+          android:icon="@drawable/ic_brightness_white_24dp" />
+    <item android:id="@+id/adjust_haze"
+          android:title="@string/haze"
+          android:icon="@drawable/ic_dehaze_white_24dp" />
+    <item android:id="@+id/adjust_exposure"
+          android:title="@string/exposure"
+          android:icon="@drawable/ic_exposure_white_24dp" />
+    <item android:id="@+id/adjust_contrast"
+          android:title="@string/contrast"
+          android:icon="@drawable/ic_contrast_white_24dp" />
+    <item android:id="@+id/adjust_saturation"
+          android:title="@string/saturation"
+          android:icon="@drawable/ic_saturation_white_24dp" />
+    <item android:id="@+id/adjust_pixelation"
+          android:title="@string/pixelation"
+          android:icon="@drawable/ic_pixelation_white_24dp" />
+    <item android:id="@+id/adjust_sharpness"
+          android:title="@string/sharpness"
+          android:icon="@drawable/ic_sharpness_white_24dp" />
+    <item android:id="@+id/adjust_hue"
+          android:title="@string/hue"
+          android:icon="@drawable/ic_hue_white_24dp" />
+    <item android:id="@+id/adjust_gamma"
+          android:title="@string/gamma"
+          android:icon="@drawable/ic_gamma_white_24dp" />
+    <item android:id="@+id/adjust_emboss"
+          android:title="@string/emboss"
+          android:icon="@drawable/ic_emboss_white_24dp" />
+    <item android:id="@+id/adjust_shadow"
+          android:title="@string/shadow"
+          android:icon="@drawable/ic_shadow_white_24dp" />
+
+</menu>
